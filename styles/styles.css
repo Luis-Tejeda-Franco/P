@@ -1,0 +1,100 @@
+/*body {
+  margin: 0;
+  padding: 0;
+}
+*/
+.background-image1 {
+  background-image: url("../assets/img/Landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Esto es solo para centrar verticalmente en la página, puedes ajustarlo según sea necesario */
+}
+.buttonInicio {
+  margin-top: 20px;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 15px; /* Ajusta el valor de acuerdo a la curvatura deseada */
+  border-bottom: 2px solid#ff000038;
+}
+
+.logo img {
+  display: flex;
+  width: 80px;
+  height: auto;
+}
+
+.Bmonitor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-inline: 50px;
+}
+
+.option {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+}
+
+.option:hover {
+  transform: scale(
+    1.1
+  ); /* Aumenta ligeramente el tamaño al pasar el mouse sobre el título */
+}
+.h1p1 {
+  color: black;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
+}
+.text-section {
+  width: 45%;
+  padding-left: 50%;
+}
+
+.video {
+  padding-right: 8%;
+  padding-left: 52%;
+}
+
+.video iframe {
+  width: 100%;
+  max-height: 100%;
+  height: 300px;
+}
+
+.ar-model-section {
+  width: 45%; /* Ajusta el ancho según tus preferencias */
+  position: fixed;
+  height: 100vh; /* Establece la altura total de la pantalla */
+  overflow: hidden; /* Oculta cualquier desbordamiento del modelo 3D */
+  top: 1; /* Fija el modelo en la parte superior de la pantalla */
+  left: 0;
+}
+
+model-viewer {
+  width: 100%; /* Asegúrate de que el modelo 3D ocupe el 100% de su contenedor */
+  height: 400px; /* Establece la altura según tus preferencias */
+}
